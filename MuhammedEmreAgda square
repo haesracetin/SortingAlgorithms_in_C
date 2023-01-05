@@ -3,12 +3,16 @@
 #include <stdlib.h>
 
 int main(){
-    int i, j;
-    for(i=1; i<=5; i++){
+    int i,j,number;
+    
+    printf("enter the number: ");
+    scanf("%d",&number);
+    
+    for(i=1;i<=number;i++){
 
-    for(j=1; j<=5; j++)
+    for(j=1;j<=number;j++)
     {
-        if(i==1 || i==5 || j==1 || j==5)
+        if(i==1 || i==number || j==1 || j==number )
         {
             printf("*");
         }
